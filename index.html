@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<title>Penentuan Keyword</title>
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+	<body>
+		<h1 class="text-center">Penentuan Keyword</h1>
+
+		<form class="p-3 text-center" action="/", method="post" enctype="multipart/form-data">
+			<input class="form-control" type="file" name="pdffile">
+			<button type="submit" class="btn btn-primary mt-3" value="Tentukan Keyword">Tentukan Keyword</button>
+		</form>
+
+			<h2 class="text-center">Teks Jurnal</h2>
+			<h3>
+			<div class="mb-3">
+  				<textarea class="form-control" rows="3">{{textpdf}}</textarea>
+			</div>
+			</h3>
+			<p class="text-center">Metode Binary Relevance dengan k Nearest Neighbours : {{prediction1}}</p>
+			<p class="text-center">Metode Multilabel k Nearest Neighbours : {{prediction2}}</p>
+			<p class="text-center">Metode Binary Relevance dengan SVM : {{prediction3}}</p>
+			<p class="text-center">Metode Binary Relevance dengan OVA: {{prediction4}}</p>
+
+	</body>
+</html>
+	
