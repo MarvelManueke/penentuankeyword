@@ -8,3 +8,4 @@ Limitation on the model :
 4. For example https://ejournal.unsrat.ac.id/v3/index.php/elekdankom/article/view/47321
 ![image](https://github.com/MarvelManueke/penentuankeyword/assets/106239825/02a2f81d-acb9-47aa-a5c2-ba2ef171fb52)
 
+If you have any questions regarding the model, please feel free to contact me via email at manuekemarvel@gmail.com. I'll be more than happy to help.
